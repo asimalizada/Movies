@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entiti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{6E7308DD-D6E1-4FBF-A9BB-675CB85F6700}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormUI", "FormUI\FormUI.csproj", "{BD61A81E-C56F-47E3-9AD1-704D1663CC06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6E7308DD-D6E1-4FBF-A9BB-675CB85F6700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E7308DD-D6E1-4FBF-A9BB-675CB85F6700}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E7308DD-D6E1-4FBF-A9BB-675CB85F6700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD61A81E-C56F-47E3-9AD1-704D1663CC06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD61A81E-C56F-47E3-9AD1-704D1663CC06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD61A81E-C56F-47E3-9AD1-704D1663CC06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD61A81E-C56F-47E3-9AD1-704D1663CC06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

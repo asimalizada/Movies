@@ -59,5 +59,17 @@ namespace Core.DataAccess.Concrete.EntityFramework
                 return context.Set<TEntity>().FirstOrDefault(filter);
             }
         }
+
+        public int GetNextId()
+        {
+            using (TContext context = new TContext())
+            {
+                var result = context.Set<TEntity>().ToList()
+                    .Select(t => t.GetType().GetProperties()[0].GetValue(t))
+                    .LastOrDefault() as int?;
+
+                return result + 1 ?? 1;
+            }
+        }
     }
 }
